@@ -90,9 +90,7 @@ class RecoverPasswordScreen extends StatelessWidget {
               obscureText: true,
             ),
             ElevatedButton(
-              onPressed: () {
-                // Agregar lógica para cambiar la contraseña aquí
-              },
+              onPressed: () {},
               child: Text('Cambiar Contraseña'),
             ),
           ],
@@ -111,13 +109,10 @@ class UserProfileScreen extends StatelessWidget {
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
-            // Agregar la imagen del usuario aquí
             Text('Nombre del Usuario'),
             Text('Correo'),
             ElevatedButton(
-              onPressed: () {
-                // Agregar lógica para editar el perfil aquí
-              },
+              onPressed: () {},
               child: Text('Editar Perfil'),
             ),
           ],
